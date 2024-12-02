@@ -1,0 +1,57 @@
+* {
+  font-family: "Roboto";
+  margin: 0px;
+  padding: 0px;
+}
+
+.login-hero {
+  width: 100%;
+  min-width: 300px;
+  height: auto;
+  object-fit: cover;
+}
+
+.container {
+  height: 100vh;
+}
+/* .col-lg{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+} */
+
+.row {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.row > .p-3 {
+  max-width: 500px;
+  min-width: 300px;
+}
+
+.btn {
+  background-color: #256d85;
+  width: 100%;
+}
+.btn-register {
+  background-color: #a802a0;
+}
+.btn:hover {
+  background-color: #0d617d;
+}
+.col-right {
+  background-image: linear-gradient(to right, #ffffff, #d16ccd);
+}
+.col-right-login{
+    background-image: linear-gradient(to right, #ffffff, #bceafc);
+}
+@media only screen and (max-width: 623px) {
+  .col-right {
+    background-image: linear-gradient(to bottom, #ffffff, #d16ccd);
+  }
+  .col-right-login{
+    background-image: linear-gradient(to bottom, #ffffff, #bceafc);
+}
+}
